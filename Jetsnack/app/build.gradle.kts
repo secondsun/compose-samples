@@ -120,6 +120,12 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     debugImplementation(libs.androidx.compose.ui.tooling)
 
+    implementation(libs.androidx.glance)
+    implementation(libs.androidx.glance.appwidget)
+    implementation(libs.androidx.glance.material3)
+    debugImplementation(libs.androidx.glance.appwidget.preview)
+    debugImplementation(libs.androidx.glance.preview)
+
     implementation(libs.coil.kt.compose)
 
     androidTestImplementation(libs.junit)
